@@ -1,5 +1,7 @@
 # My Virtual Assistant
 
+> **2026 update:** This is an early project, kept as it was built. My current work on natural-language interfaces is [ai-agent-chatbot](https://github.com/likarajo/ai-agent-chatbot), a safe natural-language-to-SQL agent over public energy data.
+
 ## Dependencies
 
 ```sh
