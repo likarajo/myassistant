@@ -17,6 +17,14 @@ virtualenv venv
 pip3 install -r requirements.txt
 ```
 
+### Email feature
+
+Sending email reads a Gmail [app password](https://support.google.com/accounts/answer/185833) from an environment variable. Nothing is stored in the code:
+
+```sh
+export GMAIL_APP_PASSWORD="<your Gmail app password>"
+```
+
 * **gTTS (Google Text-to-Speech)**: Python library and CLI tool to interface with ***Google Translate***'s *text-to-speech* API. This module helps to convert String text to Spoken text and can be saved as .mp3.
 
 * **SpeechRecognition**: To retrieve speech input and process audio files. The Google Web Speech API supports a default API key that is hard-coded into the SpeechRecognition library

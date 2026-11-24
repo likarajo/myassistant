@@ -82,7 +82,7 @@ def assistant(command):
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('likarajo@gmail.com','rajarshich2007')
+        server.login(FROM, os.environ['GMAIL_APP_PASSWORD'])
         server.sendmail(FROM, TO, content)
         server.close()
         talk('Email sent!')
